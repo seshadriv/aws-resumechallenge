@@ -23,7 +23,7 @@
             <div>  
                 <h2>Application/Cloud Developer</h2>
                 <h3>+1-919-945-4087 vseshadris@gmail.com</h3>
-                <div style="width:100%;padding-left: 90%;"><span class="text-style" >Page Visits - <a href="#" id="visitcount" style="background-color: white"></a></span></div>
+                <div style="width:15%; margin-left: 85%; "><span class="text-style" >Page Visits - <a href="#" id="visitcount" style="color: white"></a></span></div>
                 
                 <!-- <span class="changing-keywords" id="change" style="margin-left: 45%;">                        
                     <span class="changing-keyword shown" style="color: rgb(17, 5, 5)">Application Developer</span>
@@ -53,7 +53,7 @@
           <div class="icon-bar">
             <!-- <a href="#about" class="facebook">A</a>  -->
             <a href="#" class="home"><i class="fa fa-home"></i></a> 
-            <a href="#" class="github"><i class="fa fa-github"></i></a>
+            <a href="https://github.com/seshadriv/aws-resumechallenge" target="_blank" class="github"><i class="fa fa-github"></i></a>
             <!-- <a href="#" class="contact"><i class="fa fa-address-card"></i></a>             -->
             <a href="https://www.linkedin.com/in/seshadri-vasudevan-72589029" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a> 
           </div>          
@@ -251,7 +251,7 @@
               const jsonData = JSON.parse(data.body);
               // var cnt=data.body;
               // alert(jsonData.visit_count);
-              document.getElementById("visitcount").innerHTML="# of Visits : " + jsonData.visit_count;
+              document.getElementById("visitcount").innerHTML=jsonData.visit_count;
               // console.log(data);
             })
             .catch(error => {
