@@ -1,0 +1,254 @@
+.profilepic{
+    border-radius: 100% !important;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+}
+h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+}
+/* .bannerdiv{
+    border:3%;background-color:  #80530b;;width: 100%;height: 25%;
+} */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    /* position: fixed; */
+    top: 0%;
+    width: 100%;
+    /* z-index: 1; */
+  }
+
+/* .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;
+    font-family:Georgia, 'Times New Roman', Times, serif 'Courier New', Courier, monospace;color: rgb(107, 19, 41);} */
+/* .w3-button{white-space:normal} */
+.top-banner,.top-banner-hover:hover{color:#fff!important;background-color:#ba7821!important}
+/* .w3-sidebar{height:100%;width:200px;background-color:rgb(244, 240, 245);position:fixed!important;z-index:1;overflow:auto} */
+/* .w3-bar-block .w3-bar-item{width:50%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0} */
+.ul-navbar {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #80530b;
+    font-family: 'Saira Extra Condensed',Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .li-navbar {
+    float: left;    
+  }
+  
+  .li-navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  .li-navbar a:hover {
+    background-color:  #80530b
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* z-index: 100; */
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+    z-index: 100;
+  }
+  
+  .para-style{
+    font-family: 'Saira Extra Condensed',Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    color: darkslategrey;
+    text-align: justify;    
+  }
+  .text-style{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+  }
+  .text-header{
+    font-family:Georgia,Cambria, Cochin,  Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color:chocolate;
+    font-weight:bolder;
+  }
+  .changing-keyword {
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s;
+    visibility: collapse;
+    position: absolute;
+    padding-left: .2rem;
+  }
+  /* skills bar */
+.container {
+    width: 100%;
+    background-color: #ddd;
+    }
+.skills {
+text-align: right;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+}
+.proglang {width: 80%; background-color: #62b697;}
+.databases {width: 40%; background-color: #7a65c8;}
+.devtools {width: 50%; background-color: #2196F3;}
+.aws {width: 35%; background-color: #3aa04b;}
+.azure {width: 35%; background-color: #0e776e;}
+.containers{width: 30%; background-color: #912020;}
+
+/* .docker {width: 30%; background-color: #f44336;} */
+
+.sectiontag{
+    padding-top: 2%;
+    /* padding-bottom: 1%; */
+    margin-left: 2%;
+}
+.about-div-header{
+    /* padding-top: 1%;  */
+    height:5%; 
+    /* z-index:1 */
+  }
+
+.education-div-header{
+    /* padding-top: 20%;  */
+    /* padding-bottom: 5%; */
+    height:5%;
+    
+  }
+.experience-div-header{
+    /* padding-top: 20%;  */
+    /* padding-bottom: 5%; */
+    height:5%;
+    
+  }
+.cerification-div-header{
+    /* padding-top: 20%;  */
+    /* padding-bottom: 5%; */
+    height:5%;
+    
+  }
+
+.skills-div-header{
+    /* padding-top: 20%;  */
+    /* padding-bottom: 5%; */
+    height:5%;
+    
+  }
+.about-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-variant-caps: normal;
+    padding-bottom: 1%;
+  }
+
+  .floating-menu {
+    font-family: sans-serif;
+    background: yellowgreen;
+    padding: 5px;    
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+  }
+
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+  }
+
+  /* vertical floating menu */
+
+  .vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+  }
+
+  .icon-bar {
+    position: fixed;
+    top: 75%;
+    margin-left: 95%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .home {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .contact {
+    background: #b3232f;
+    color: white;
+  }
+  
+  .github {
+    background: black;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  /* 
+  .youtube {
+    background: #bb0000;
+    color: white;
+  } */
+  td{
+    width: 30%;
+    /* border-style: double; */
+  }
+  table{
+    width: 60%;
+    /* border: 2px;
+    border-style: double; */
+  }
