@@ -11,7 +11,7 @@
 
     <title>Seshadri Vasudevan - Resume</title>
     <!-- <body style="background-color: rgb(244, 240, 245)" onload="changetext()"> -->
-    <body style="background-color:white" onload="invokeAPIGatewayFetch()">
+    <body style="background-color:white" onload="invokeAPIGatewayFetch()" >
         
         <!-- Page Content -->
         <div class="top-banner">    
@@ -23,7 +23,8 @@
             <div>  
                 <h2>Application/Cloud Developer</h2>
                 <h3>+1-919-945-4087 vseshadris@gmail.com</h3>
-                <div style="width:15%; margin-left: 85%; "><span class="text-style" >Page Visits - <a href="#" id="visitcount" style="color: white"></a></span></div>
+                <!-- <span class="text-style" >T</a></span> -->
+                <div style="width:15%; margin-left: 85%; "><span class="text-style" ><b>Page Visits - </b> <a href="#" id="visitcount" style="color: rgb(17, 10, 17)"></a></span></div>
                 
                 <!-- <span class="changing-keywords" id="change" style="margin-left: 45%;">                        
                     <span class="changing-keyword shown" style="color: rgb(17, 5, 5)">Application Developer</span>
@@ -38,7 +39,9 @@
                     <li class="li-navbar"><a href="#experience">Experience</a></li>
                     <li class="li-navbar"><a href="#education">Education</a></li>
                     <li class="li-navbar"><a href="#skills">Skills</a></li>
-                    <li class="li-navbar"><a href="#certificates">Certifications</a></li>                                       
+                    <li class="li-navbar"><a href="#certificates">Certifications</a></li>       
+                    <li class="li-navbar"><a href="#architecture">Architecture</a></li>       
+                                                    
             </ul>
             </div>                
         </div>
@@ -59,17 +62,20 @@
           </div>          
         <section id="about" class="sectiontag">
             <div class="text-header about-div-header">
-                <span>PROFILE SUMMARY</span>                            
+                <span>SUMMARY</span>                            
             </div>       
             <div>
                 <p class="para-style">
                     <ul>
                         <!-- <li>Experienced in application development, cloud architecture, automation, and continuous integration/continuous deployment (CI/CD) processes</li> -->
+                        <li  class="about-text">This project was built as part of <b style="color: red"> resume challenge</b> set by <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">  Forrest Brazeal</a></li>
                         <li  class="about-text">Experienced in application development, cloud architecture, automation, and continuous integration/continuous deployment (CI/CD) processes</li>
-                        <li  class="about-text">Have proven track record of implementing efficient solutions resulting in productivity and cost efficiency</li>
-                        <li  class="about-text">Automated infrastructure deployment using tools such as Terraform, CloudFormation</li>
-                        <li class="about-text">Skilled in developing automation scripts, and collaborating with cross-functional teams to troubleshoot and resolve issues</li>
-                        <li class="about-text">Good knowledge of blockchain technology, Ethereum smart contracts, building private block chains</li>
+                        <!-- <li  class="about-text">Have proven track record of implementing efficient solutions resulting in productivity and cost efficiency</li> -->
+                        <li  class="about-text">Automated infrastructure deployment using tools such as Terraform, CloudFormation, Powershell</li>
+                        <!-- <li class="about-text">Skilled in developing automation scripts, and collaborating with cross-functional teams to troubleshoot and resolve issues</li> -->
+                        <!-- <li class="about-text">Provided Infrastructure support for Epic EMR product within the health system</li> -->
+                        <li class="about-text">Good knowledge of blockchain technology, ethereum smart contracts, building private block chains</li>
+                        
                     </ul>
                 </p> 
             </div>
@@ -162,7 +168,7 @@
             <div  class="text-header skills-div-header"  >
                 <span>SKILLS</span>
             </div>
-            <p class="para-style">Programming Languages(C#, Powershell, Python, HTML, Yaml,Terraform) </p>
+            <p class="para-style">Programming Languages(C#, Powershell, Python, HTML, Yaml, Terraform) </p>
             <div class="container">
                 <div class="skills proglang para-style">80%</div>
             </div>
@@ -194,26 +200,33 @@
         </section>   
             
         <section class="sectiontag" id="certificates">
-            <div  class="div-header">
+            <div  class="text-header cerification-div-header">
                 <span class="text-header">CERTIFICATIONS</span>
             </div>
             <div>                        
                 <table class="table-width" >
                     <tr>
                         <td style="width: 30%">
-                            <img src="img/iac.JPG" style="width: 8%;height:8%"/>
-                            <img src="img/az303.JPG" style="width: 8%;height:8%"/>
+                            <img src="img/iac.JPG" style="width: 8%;height:8%" alt="Terraform Associate"/>
+                            <img src="img/az303.JPG" style="width: 8%;height:8%" alt="Azure 303"/>
                         <!-- </td>
                         <td style="width: 30%"> -->
                             <!-- <span class="text-style">HashiCorp Certified: Terraform Associate</span> -->
-                            <img src="img/cks.JPG" style="width: 10%;height:10%"/>
-                            <img src="img/cka.JPG" style="width: 10%;height:10%"/>
-                            <img src="img/ckad.JPG" style="width: 10%;height:10%"/>
+                            <img src="img/cks.JPG" style="width: 10%;height:10%" alt="Certified Kubernetes Security Specialist"/>
+                            <img src="img/cka.JPG" style="width: 10%;height:10%" alt="Certified Kubernetes Administrator"/>
+                            <img src="img/ckad.JPG" style="width: 10%;height:10%" alt="Certified Kubernetes Application Developer"/>
                         </td>                            
                 </table>
             </div>
         </section>
-
+        <section id="architecture" class="sectiontag">
+            <div  class="text-header arch-div-header">
+                <span class="text-header">ARCHITECTURE</span>
+            </div>
+            <div>
+                <img src="img/CloudArchitecture.png" alt="Cloud Architecture for Resume Challenge" style="width: 60%;height:60%"/>
+            </div>
+        </section>
     </body>
     <script>
         // function w3_open() {
