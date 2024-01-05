@@ -6,4 +6,12 @@ This is my attempt to build my online resume in AWS as part of the Cloud Resume 
 
 ![Architecture](img/CloudArchitecture.png)
 
-## Services 
+## AWS Services 
+
+1. S3 Static Website
+2. Route53
+3. CloudFront
+4. DynamoDB
+5. Lambda
+6. API Gateway
+7. CloudWatch
