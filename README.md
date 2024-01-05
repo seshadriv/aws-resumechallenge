@@ -1,9 +1,10 @@
 a## Cloud Resume Challenge built on AWS Services. 
 
-This is my attempt to build my online resume in AWS as part of the Cloud Resume Challenge defined by  <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">  Forrest Brazeal</a> <a href="https://www.seshadri-resume.net/index.html"> My Resume </a>
+This is my attempt to build my online resume in AWS as part of the Cloud Resume Challenge defined by  <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">  Forrest Brazeal</a> 
 
 ## Project Highlights
 
+* <a href="https://www.seshadri-resume.net/index.html" target="_blank"> My Resume </a>
 * Built HTML/CSS page resume and hosted it as a S3 static website
 * Setup github repo and github actions to define CI/CD pipeline
 * Author a lambda function to calculate the page visits and store in dynamodb
@@ -25,3 +26,5 @@ This is my attempt to build my online resume in AWS as part of the Cloud Resume 
 6. API Gateway
 7. CloudWatch
 
+# Author
+* Seshadri Vasudevan
