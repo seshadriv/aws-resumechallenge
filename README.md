@@ -4,6 +4,6 @@ This is my attempt to build my online resume in AWS as part of the Cloud Resume 
 
 ## Architecture
 
-[!Architecture]<img src="img/CloudArchitecture.png"/>
+![Architecture]<img src="img/CloudArchitecture.png"/>
 
 ## Services 
