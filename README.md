@@ -26,6 +26,14 @@ This is my attempt to build my online resume in AWS as part of the Cloud Resume 
 6. API Gateway
 7. CloudWatch
 
+## Lessons Learnt
+
+* Various AWS services
+* Registering a domain in route53 and creating managing SSL certificates using ACM
+* Creating Github actions, defining secrets and configure manual and automated workflows
+* Configuring API gateway and Cloudfront 
+* Configure CloudWatch logs for requests to my page
+
 ## Next Steps (as time permits)
 
 * Use Azure and GCP services
