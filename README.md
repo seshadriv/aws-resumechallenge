@@ -1,6 +1,6 @@
 ## Cloud Resume Challenge built on AWS Services. 
 
-This is my attempt to build my online resume in AWS as part of the Cloud Resume Challenge defined by  <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">  Forrest Brazeal</a> 
+This is my attempt to build my online resume in AWS as part of the Cloud Resume Challenge defined by  <a href="https://cloudresumechallenge.dev/docs/the-challenge/aws/" target="_blank">  Forrest Brazeal</a>  
 
 ## Project Highlights
 
@@ -36,8 +36,13 @@ This is my attempt to build my online resume in AWS as part of the Cloud Resume 
 
 ## Next Steps (as time permits)
 
+* Continue monitoring the AWS servicesx
 * Use Azure and GCP services
 * Use IAC to automate infra deployment
+
+## Credits
+
+Speical thanks to all the authors for their detailed video/blog tutorials that helped me to complete this challenge.
 
 # Author
 * Seshadri Vasudevan
