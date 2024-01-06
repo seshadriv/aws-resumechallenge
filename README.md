@@ -6,11 +6,11 @@ This is my attempt to build my online resume in AWS as part of the Cloud Resume 
 
 * <a href="https://www.seshadri-resume.net/index.html" target="_blank"> My Resume </a>
 * Built HTML/CSS page resume and hosted it as a S3 static website
-* Set up github repo and github actions to define CI/CD pipeline
-* Authored a lambda function to calculate the page visits and store in dynamodb
-* Registered domain in route53 and configured cloudfront 
-* Configured API gateway to trigger the lambda function 
-* Wrote Python lambda function to increment page visit counter and store in dynamodb
+* Set up GitHub repo and GitHub  actions to define CI/CD pipeline
+* Authored a Lambda function to calculate the page visits and store in DynamoDB
+* Registered domain in route53 and configured CloudFront 
+* Configured API gateway to trigger the Lambda function 
+* Wrote Python Lambda function to increment page visit counter and store in DynamoDB
 
 ## Architecture
 
